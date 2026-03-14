@@ -1,5 +1,8 @@
-function name () {
-    console.log("Pakaj");
-    return
+let b = function (x) {
+    console.log(x);
 }
-console.log(name());
+
+function xyz () {
+  console.log("i am the Kind")
+};
+b(xyz())
