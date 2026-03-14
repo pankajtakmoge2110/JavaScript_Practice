@@ -1,8 +1,10 @@
-let b = function (x) {
-    console.log(x);
+function greet(name) {
+  console.log("Hello " + name);
 }
 
-function xyz () {
-  console.log("i am the Kind")
-};
-b(xyz())
+function processUser(callback) {
+  let name = "Pankaj";
+  callback(name); // calling the passed function
+}
+
+processUser(greet); // "Hello Pankaj"
