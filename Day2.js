@@ -14,7 +14,7 @@ for (let i =0; i<arr.length; i++) {
     min = arr[i];
  }
 }
- let average =sum/arr.length;
+
 
 
 
