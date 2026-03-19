@@ -17,7 +17,7 @@ for (let i =0; i<arr.length; i++) {
  let average =sum/arr.length;
 
 console.log(sum);
-console.log(max);
+
 
 
 
